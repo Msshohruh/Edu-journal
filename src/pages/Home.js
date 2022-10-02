@@ -16,6 +16,7 @@ function Home() {
               className="item-link"
               href="http://pedagogicaljournal.luguniv.edu.ua/archive/2018/2018_No1(168).pdf"
               target={"_blank"}
+              rel="noreferrer"
             >
               View...{">>"}
             </a>
@@ -32,6 +33,7 @@ function Home() {
               className="item-link"
               href="http://pedagogicaljournal.luguniv.edu.ua/archive/2018/2018_No1(168).pdf"
               target={"_blank"}
+              rel="noreferrer"
             >
               View...{">>"}
             </a>
