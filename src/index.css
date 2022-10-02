@@ -187,6 +187,10 @@ b {
 
 }
 
+.requirement-title {
+  width: 100%;
+}
+
 .requirement-list-item b {
   padding-left: 35px;
 }
@@ -205,4 +209,133 @@ b {
 
 .member-img {
   margin-right: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .requirement-title {
+    width: 550px;
+  }
+
+  .requirement-title p {
+    word-wrap: break-word;
+    width: 100%;
+  }
+
+  .requirement-list-item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .header-container h1 {
+    font-size: 100px;
+  }
+
+  .header-container h2 {
+    font-size: 35px;
+  }
+
+  .header-container h3 {
+    font-size: 20px;
+  }
+
+  .menu-panel-item {
+    width: 180px;
+  }
+
+  .requirement-title {
+    width: 100%;
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .menu-panel-item {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .header-container h1 {
+    font-size: 85px;
+  }
+
+  .header-container h2 {
+    font-size: 30px;
+  }
+
+  .header-container h3 {
+    font-size: 20px;
+  }
+
+  .home-book-list-item {
+    flex-direction: column;
+  }
+
+  .item-img {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .main-section {
+    flex-direction: column;
+  }
+
+  .menu-panel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto-fit, 54px);
+    gap: 5px;
+    place-items: center;
+  }
+
+  .menu-panel-item {
+    margin: 0px !important;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .header-container h1 {
+    font-size: 60px;
+  }
+
+  .header-container h2 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+
+  .header-container h3 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .menu-panel {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fit, 54px);
+    gap: 5px;
+    place-items: center;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .header-container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .header-container h1 {
+    font-size: 50px;
+  }
+
+  .header-container h2 {
+    font-size: 19px;
+    margin-top: 0;
+  }
+
+  .header-container h3 {
+    font-size: 15px;
+  }
 }

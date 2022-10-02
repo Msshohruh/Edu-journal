@@ -137,7 +137,7 @@ function Requirements() {
           national report on higher education in Australia (2001) , Department
           of Education, Science and Training, Canberra, viewed 13 October, 2004,
           http://www.dest.gov.au/highered/otherpub/national_report/default.htm.
-        </p>{" "}
+        </p>
         <br />
         <p>
           The author shall check the sources he/she refers to for the registered
