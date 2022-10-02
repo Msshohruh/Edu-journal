@@ -143,6 +143,22 @@ main {
   display: block;
 }
 
+.sertificates {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border: 1px solid rgb(142, 142, 142);
+}
+
+.sertificates-right {
+  float: right;
+}
+
+.sertificates-bottom {
+  display: none;
+
+}
+
 .main-signature {
   text-align: right;
   padding-top: 7px;
@@ -209,6 +225,22 @@ b {
 
 .member-img {
   margin-right: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .sertificates-bottom {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 150px);
+    justify-content: center;
+    place-items: center;
+    gap: 5px;
+  }
+
+  .sertificates-right {
+    display: none;
+  }
+
+  .sertificates {}
 }
 
 @media screen and (max-width: 900px) {
