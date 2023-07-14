@@ -33,25 +33,23 @@ header {
   text-align: center;
   color: #fff;
   border-bottom: 6px solid #fff;
+
 }
 
 .header-container h1 {
   font-weight: 600;
   font-size: 130px;
+  font-family: 'Noto Rashi Hebrew', serif;
+
 }
 
 .header-container h2 {
   font-weight: 600;
   font-size: 50px;
   margin-top: -20px;
+  margin-bottom: 20px;
+  font-family: 'Noto Rashi Hebrew', serif;
 
-}
-
-.header-container h3 {
-  color: #DBA34C;
-  font-weight: 500;
-  font-size: 35px;
-  padding: 7px 0;
 }
 
 main {
@@ -115,6 +113,19 @@ main {
 
 }
 
+b {
+  color: #4a2200;
+}
+
+.content a {
+  font-weight: bold;
+  color: #4a2200;
+}
+
+.content a:hover {
+  color: #F8BA55;
+}
+
 .home-book-list {
   list-style: none;
   padding: 10px;
@@ -140,14 +151,26 @@ main {
 }
 
 .item-link {
-  display: block;
+  display: inline-block;
+  border: 1px solid #734000;
+  border-radius: 7px;
+  padding: 3px 3px;
+  background-color: #734000;
+  color: #fff !important;
+  margin-top: 10px;
+}
+
+.item-link:hover {
+  color: #F8BA55 !important;
+}
+
+.item-link:active {
+  opacity: 0.8;
 }
 
 .sertificates {
   display: flex;
   flex-direction: column;
-  padding: 5px;
-  border: 1px solid rgb(142, 142, 142);
 }
 
 .sertificates-right {
@@ -156,26 +179,34 @@ main {
 
 .sertificates-bottom {
   display: none;
+  border: 1px solid rgb(142, 142, 142);
+}
 
+.main-sertificates {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border: 1px solid rgb(142, 142, 142);
+  margin-top: -43px;
+  margin-bottom: 5px;
+}
+
+.other-sertificates {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border: 1px solid rgb(142, 142, 142);
+}
+
+.other-sertificates-title {
+  text-align: center;
+  color: #783500;
 }
 
 .main-signature {
   text-align: right;
   padding-top: 7px;
   color: #DBA34C;
-}
-
-b {
-  color: #4a2200;
-}
-
-.content a {
-  font-weight: bold;
-  color: #4a2200;
-}
-
-.content a:hover {
-  color: #F8BA55;
 }
 
 .partners-list {
@@ -225,6 +256,45 @@ b {
 
 .member-img {
   margin-right: 20px;
+  object-fit: cover;
+}
+
+.about-page {
+  width: 100%;
+  padding: 20px 120px;
+  text-align: center;
+  border-top: 2px solid rgb(107, 107, 107);
+  border-bottom: 2px solid rgb(107, 107, 107);
+  margin-bottom: 20px;
+}
+
+.archieve-page-contents {
+  width: 100%;
+  text-transform: uppercase;
+  background-color: #783500;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.archieve-page-title {
+  width: 100%;
+  text-transform: uppercase;
+  background-color: #FCDBA3;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #4a2200;
+  padding: 10px 0;
+}
+
+.archieve-page-link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 0;
 }
 
 @media screen and (max-width: 1000px) {
@@ -240,7 +310,7 @@ b {
     display: none;
   }
 
-  .sertificates {}
+
 }
 
 @media screen and (max-width: 900px) {
@@ -267,9 +337,7 @@ b {
     font-size: 35px;
   }
 
-  .header-container h3 {
-    font-size: 20px;
-  }
+
 
   .menu-panel-item {
     width: 180px;
@@ -296,9 +364,7 @@ b {
     font-size: 30px;
   }
 
-  .header-container h3 {
-    font-size: 20px;
-  }
+
 
   .home-book-list-item {
     flex-direction: column;
@@ -345,9 +411,7 @@ b {
     margin-top: 0;
   }
 
-  .header-container h3 {
-    font-size: 15px;
-  }
+
 }
 
 @media screen and (max-width: 540px) {
@@ -375,9 +439,7 @@ b {
     margin-top: 0;
   }
 
-  .header-container h3 {
-    font-size: 15px;
-  }
+
 }
 
 @media screen and (max-width: 380px) {

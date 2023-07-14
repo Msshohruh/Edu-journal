@@ -143,7 +143,11 @@ function Requirements() {
           The author shall check the sources he/she refers to for the registered
           Digital Identifier (Digital Object Identifier, DOI). <br /> DOI of an
           original work can be found on the website{" "}
-          <a href="http://www.crossref.org/SimpleTextQuery" target={"_blank"}>
+          <a
+            href="http://www.crossref.org/SimpleTextQuery"
+            target={"_blank"}
+            rel="noreferrer"
+          >
             http://www.crossref.org/SimpleTextQuery.
           </a>{" "}
           Examples of the references reproducing DOI are listed below:

@@ -12,7 +12,7 @@ function Contacts() {
         <b>Tel:</b> 8-103-8-0642-58-03-20
       </p>
       <p>
-        <b>E-mail:</b> alma-mater@list.ru
+        <b>E-mail:</b> eapsjournals@gmail.com
       </p>
     </>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Archive() {
   return (
@@ -9,10 +10,22 @@ function Archive() {
         <div className="archieve-content">
           <fieldset>
             <legend>
+              <b>2022</b>
+            </legend>
+            <p>
+              <a href="./files/EAPS9.pdf" target={"_blank"} rel="noreferrer">
+                №1 (169)
+              </a>
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>
               <b>2018</b>
             </legend>
             <p>
-              <a href="">№1 (168)</a>
+              <a href="./files/168.pdf" target={"_blank"} rel="noreferrer">
+                №1 (168)
+              </a>
             </p>
           </fieldset>
 
@@ -21,11 +34,15 @@ function Archive() {
               <b>2017</b>
             </legend>
             <p>
-              <a href="">№1 (166)</a>
+              <a href="./files/166.pdf" target={"_blank"} rel="noreferrer">
+                №1 (166)
+              </a>
             </p>
 
             <p>
-              <a href="">№2 (167)</a>
+              <a href="./files/167.pdf" target={"_blank"} rel="noreferrer">
+                №2 (167)
+              </a>
             </p>
           </fieldset>
 
@@ -34,11 +51,15 @@ function Archive() {
               <b>2016</b>
             </legend>
             <p>
-              <a href="">№1 (164)</a>
+              <a href="./files/164.pdf" target={"_blank"} rel="noreferrer">
+                №1 (164)
+              </a>
             </p>
 
             <p>
-              <a href="">№2 (165)</a>
+              <a href="./files/165.pdf" target={"_blank"} rel="noreferrer">
+                №2 (165)
+              </a>
             </p>
           </fieldset>
 
@@ -47,11 +68,11 @@ function Archive() {
               <b>2014</b>
             </legend>
             <p>
-              <a href="">№1 (162)</a>
+              <Link to="/archieve/2014/1">№1 (162)</Link>
             </p>
 
             <p>
-              <a href="">№2 (163)</a>
+              <Link to="/archieve/2014/2">№2 (163)</Link>
             </p>
           </fieldset>
 
@@ -60,58 +81,54 @@ function Archive() {
               <b>2013</b>
             </legend>
             <p>
-              <a href="">№1 (156)</a>
+              <Link to="/archieve/2013/1">№1 (156)</Link>
             </p>
 
             <p>
-              <a href="">№2 (157)</a>
+              <Link to="/archieve/2013/2">№2 (157)</Link>
             </p>
 
             <p>
-              <a href="">№3 (158)</a>
+              <Link to="/archieve/2013/3">№3 (158)</Link>
             </p>
 
             <p>
-              <a href="">№4 (159)</a>
+              <Link to="/archieve/2013/4">№4 (159)</Link>
             </p>
 
             <p>
-              <a href="">№5 (160)</a>
-            </p>
-
-            <p>
-              <a href="">№6 (161)</a>
+              <Link to="/archieve/2013/5">№5 - 6 (160 - 161)</Link>
             </p>
           </fieldset>
 
-          <fieldset>
+          {/* <fieldset>
             <legend>
               <b>2012</b>
             </legend>
             <p>
-              <a href="">№1 (150)</a>
+              <a href="#">№1 (150)</a>
             </p>
 
             <p>
-              <a href="">№2 (151)</a>
+              <a href="#">№2 (151)</a>
             </p>
 
             <p>
-              <a href="">№3 (152)</a>
+              <a href="#">№3 (152)</a>
             </p>
 
             <p>
-              <a href="">№4 (153)</a>
+              <a href="#">№4 (153)</a>
             </p>
 
             <p>
-              <a href="">№5 (154)</a>
+              <a href="#">№5 (154)</a>
             </p>
 
             <p>
-              <a href="">№6 (155)</a>
+              <a href="#">№6 (155)</a>
             </p>
-          </fieldset>
+          </fieldset> */}
         </div>
       </div>
     </>
